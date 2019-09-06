@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import background from "./img/batman1.jpg";
+import background from "./img/keyboard1.png";
 import quicksand from "../../assets/Quicksand-Regular.otf";
 
 export const Container = styled.div`
@@ -31,6 +31,7 @@ export const Container = styled.div`
   .cargo {
     color: #00b8e4;
     font-size: 20px;
+    text-shadow: 1px 1px 0 #fff;
   }
 
   .foto {

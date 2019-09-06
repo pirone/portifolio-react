@@ -1,28 +1,45 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: auto;
   background: #fff;
   padding: 0 40px;
   display: flex;
-  flex-direction: column;
-
+  justify-content: center;
   div {
-    display: inline-block;
+    display: flex;
   }
 
   #skills {
+    display: inline-block;
   }
 
   #buttonsSkills {
   }
 
   .skillsat {
-    display: table;
-    img {
-      max-width: 200px;
-      max-height: 100px;
-      margin: 2px 2px;
+    div {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      img {
+        max-width: 200px;
+        max-height: 100px;
+        margin: 10px 2px;
+      }
+    }
+
+    @media only screen and (min-width: 768px) {
+      #skills1 {
+        margin-top: 50px;
+        margin-right: 100px;
+      }
+
+      #skills2 {
+        margin-right: 100px;
+      }
+    }
+
+    #skills3 {
     }
   }
 

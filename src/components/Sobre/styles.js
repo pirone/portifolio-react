@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   padding: 0 40px;
 
-  min-height: 650px;
+  min-height: 450px;
 
   div {
     display: flex;

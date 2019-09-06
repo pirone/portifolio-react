@@ -25,10 +25,6 @@ const globalStyle = createGlobalStyle`
     font-family: FiraCode;
   }
 
-  .content {
-    margin: 0 400px;
-  }
-
   ul {
     list-style: none;
   }
